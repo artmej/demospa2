@@ -3,8 +3,8 @@ module.exports = async function (context, req) {
     const encoded = Buffer.from(header, 'base64');
     const decoded = encoded.toString('ascii');
 
+    
     context.res.json({
         text: JSON.parse(decoded)
     });
 };
-
