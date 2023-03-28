@@ -10,8 +10,14 @@
         "statusCode": 301
       },
       {
-        "route":"/datos",
-        "statusCode": 404
+        "route": "/api/*",
+        "allowedRoles": ["authenticated"]
+      },
+      {
+        "route": "/contacto",
+        "allowedRoles": ["authenticated"]
       }
+
+
     ]
 }
