@@ -11,7 +11,7 @@
       },
       {
         "route": "/api/*",
-        "allowedRoles": ["authenticated"]
+        "allowedRoles": ["mtccloudacademy"]
       },
       {
         "route": "/contacto",
