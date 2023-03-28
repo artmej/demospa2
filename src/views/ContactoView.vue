@@ -2,6 +2,7 @@
     <div>
         <h1>Gracias por Contactarnos</h1>
         <p>{{ message }}</p>
+        <button id="list" onclick="list()">List</button>
     </div>
 </template>
 
